@@ -1,0 +1,411 @@
+{
+  "report_path": "workspace\\vitamin_d_deficiency_health_outcomes_survey.md",
+  "report_name": "vitamin_d_deficiency_health_outcomes_survey.md",
+  "verification_timestamp": "2026-03-04T21:34:36.590975",
+  "report_statistics": {
+    "total_citations": 4,
+    "total_claims": 8,
+    "total_sections": 6,
+    "citations_with_urls": 4,
+    "word_count": 344
+  },
+  "metrics": {
+    "Citation Accuracy": {
+      "metric_name": "Citation Accuracy",
+      "score": 0.55,
+      "passed_checks": 4,
+      "total_checks": 4,
+      "accuracy_percentage": 55.0,
+      "details": {
+        "total_citations": 4,
+        "valid_citations": 4,
+        "invalid_citations": 0,
+        "citations_with_urls": 4,
+        "accessible_urls": 1,
+        "trusted_sources": 3,
+        "suspicious_citations": 0,
+        "duplicate_urls": 0,
+        "unique_urls": 4,
+        "score_breakdown": {
+          "accessibility_score": 0.1,
+          "credibility_score": 0.15,
+          "uniqueness_score": 0.2,
+          "non_suspicious_score": 0.1,
+          "accessible_citations": 1,
+          "trusted_sources": 3,
+          "suspicious_citations": 0,
+          "duplicate_citations": 0
+        },
+        "citation_details": [
+          {
+            "index": 1,
+            "title": "URL",
+            "url": "https://academic.oup.com/ajcn/article/107/4/652/4992635",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": false,
+            "http_status": 403,
+            "error": "HTTP 403",
+            "is_valid": false,
+            "is_trusted_source": true,
+            "is_suspicious": false,
+            "credibility_score": 0.5,
+            "page_title": null
+          },
+          {
+            "index": 2,
+            "title": "URL",
+            "url": "https://asbmr.onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3952",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": false,
+            "http_status": 403,
+            "error": "HTTP 403",
+            "is_valid": false,
+            "is_trusted_source": true,
+            "is_suspicious": false,
+            "credibility_score": 0.5,
+            "page_title": null
+          },
+          {
+            "index": 3,
+            "title": "URL",
+            "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": false,
+            "http_status": 403,
+            "error": "HTTP 403",
+            "is_valid": false,
+            "is_trusted_source": true,
+            "is_suspicious": false,
+            "credibility_score": 0.5,
+            "page_title": null
+          },
+          {
+            "index": 4,
+            "title": "URL",
+            "url": "https://www.endocrine.org/guidelines-and-clinical-practice/clinical-practice-guidelines/vitamin-d-deficiency",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": true,
+            "http_status": 200,
+            "error": null,
+            "is_valid": true,
+            "is_trusted_source": false,
+            "is_suspicious": false,
+            "credibility_score": 0.5,
+            "page_title": "Vitamin D for the Prevention of Disease | Endocrine Society"
+          }
+        ],
+        "warnings": []
+      },
+      "timestamp": "2026-03-04T21:34:37.397013",
+      "errors": [
+        "HTTP 403",
+        "HTTP 403",
+        "HTTP 403"
+      ]
+    },
+    "claim_support_rate": {
+      "metric_name": "claim_support_rate",
+      "score": 0.3076923076923077,
+      "passed_checks": 4,
+      "total_checks": 13,
+      "accuracy_percentage": 30.77,
+      "details": {
+        "summary": "4/13 claims have inline citations (30.8%)",
+        "total_claims": 13,
+        "supported_claims": 4,
+        "unsupported_claims": 9,
+        "support_rate_percentage": 30.77,
+        "supported_examples": [
+          {
+            "claim": "Deficiency can lead to conditions such as osteoporosis and rickets [1].",
+            "section": "Key Findings",
+            "citations": [
+              "[1]"
+            ],
+            "citation_count": 1
+          },
+          {
+            "claim": "Recent systematic reviews have confirmed that adequate vitamin D levels are associated with improved bone density and reduced fracture risk [2].",
+            "section": "Key Findings",
+            "citations": [
+              "[2]"
+            ],
+            "citation_count": 1
+          },
+          {
+            "claim": "Supplementation has shown potential benefits in reducing the risk of acute respiratory infections [3].",
+            "section": "Key Findings",
+            "citations": [
+              "[3]"
+            ],
+            "citation_count": 1
+          },
+          {
+            "claim": "A significant portion of the global population is at risk of vitamin D deficiency due to factors such as limited sun exposure, dietary habits, and certain medical conditions [4].",
+            "section": "Key Findings",
+            "citations": [
+              "[4]"
+            ],
+            "citation_count": 1
+          }
+        ],
+        "unsupported_examples": [
+          {
+            "claim": "Vitamin D deficiency is a prevalent issue globally, affecting various health outcomes, particularly bone health and immune function.",
+            "section": "Executive Summary",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "Recent systematic reviews and studies have highlighted the critical role of vitamin D in maintaining bone density and reducing the risk of fractures, as well as its potential impact on immune modulation and reducing the risk of infections.",
+            "section": "Executive Summary",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "Vitamin D is essential for calcium absorption and bone mineralization.",
+            "section": "Key Findings",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "Vitamin D receptors are present on immune cells, and its deficiency has been linked to increased susceptibility to infections.",
+            "section": "Key Findings",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "- **Systematic Reviews**: Provide high-level evidence on the role of vitamin D in bone health and immune function.",
+            "section": "Evidence Quality Assessment",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "- **Randomized Controlled Trials (RCTs)**: Offer insights into the efficacy of vitamin D supplementation in specific populations.",
+            "section": "Evidence Quality Assessment",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "- **Observational Studies**: Highlight associations between vitamin D levels and health outcomes but are limited by potential confounding factors.",
+            "section": "Evidence Quality Assessment",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "- More RCTs are needed to establish causal relationships between vitamin D supplementation and immune function.",
+            "section": "Research Gaps and Future Directions",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "- Longitudinal studies to assess the long-term effects of vitamin D on bone health across different demographics.",
+            "section": "Research Gaps and Future Directions",
+            "reason": "No inline citation marker found"
+          }
+        ],
+        "analysis": {
+          "claims_by_section": {
+            "Executive Summary": {
+              "total": 2,
+              "supported": 0,
+              "unsupported": 2,
+              "support_rate": 0.0
+            },
+            "Key Findings": {
+              "total": 6,
+              "supported": 4,
+              "unsupported": 2,
+              "support_rate": 66.67
+            },
+            "Evidence Quality Assessment": {
+              "total": 3,
+              "supported": 0,
+              "unsupported": 3,
+              "support_rate": 0.0
+            },
+            "Research Gaps and Future Directions": {
+              "total": 2,
+              "supported": 0,
+              "unsupported": 2,
+              "support_rate": 0.0
+            }
+          },
+          "citation_pattern": {
+            "total_unique_citations": 4,
+            "claims_with_multiple_citations": 0,
+            "max_citations_per_claim": 1,
+            "avg_citations_per_supported_claim": 1.0
+          }
+        }
+      },
+      "timestamp": "2026-03-04T21:34:37.403018",
+      "errors": []
+    },
+    "evidence_match_quality": {
+      "metric_name": "evidence_match_quality",
+      "score": 0.14720443832354366,
+      "passed_checks": 0,
+      "total_checks": 4,
+      "accuracy_percentage": 14.72,
+      "details": {
+        "summary": "0/1 claims have high evidence match (14.7% avg)",
+        "total_claims_analyzed": 4,
+        "verifiable_claims": 1,
+        "unverifiable_claims": 3,
+        "average_match_score": 14.72,
+        "match_distribution": {
+          "HIGH": 0,
+          "MEDIUM": 0,
+          "LOW": 1,
+          "UNVERIFIABLE": 3
+        },
+        "claim_verification_details": [
+          {
+            "claim": "Deficiency can lead to conditions such as osteoporosis and rickets [1].",
+            "citations": [
+              "1"
+            ],
+            "urls": [
+              "https://academic.oup.com/ajcn/article/107/4/652/4992635"
+            ],
+            "composite_score": null,
+            "match_quality": "UNVERIFIABLE",
+            "reason": "Unable to fetch or process source content"
+          },
+          {
+            "claim": "Recent systematic reviews have confirmed that adequate vitamin D levels are associated with improved bone density and reduced fracture risk [2].",
+            "citations": [
+              "2"
+            ],
+            "urls": [
+              "https://asbmr.onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3952"
+            ],
+            "composite_score": null,
+            "match_quality": "UNVERIFIABLE",
+            "reason": "Unable to fetch or process source content"
+          },
+          {
+            "claim": "Supplementation has shown potential benefits in reducing the risk of acute respiratory infections [3].",
+            "citations": [
+              "3"
+            ],
+            "urls": [
+              "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17"
+            ],
+            "composite_score": null,
+            "match_quality": "UNVERIFIABLE",
+            "reason": "Unable to fetch or process source content"
+          },
+          {
+            "claim": "**Prevalence and Risk Factors**: A significant portion of the global population is at risk of vitamin D deficiency due to factors such as limited sun exposure, dietary habits, and certain medical conditions [4].",
+            "citations": [
+              "4"
+            ],
+            "urls": [
+              "https://www.endocrine.org/guidelines-and-clinical-practice/clinical-practice-guidelines/vitamin-d-deficiency"
+            ],
+            "composite_score": 0.14720443832354366,
+            "match_quality": "LOW",
+            "tfidf_similarity": 0.089,
+            "keyword_match_rate": 0.294,
+            "best_passage": "Recommendation 10 For adults with high-risk prediabetes, in addition to lifestyle modification, we suggest empiric vitamin D supplementation to reduce the risk of progression to diabetes.",
+            "passage_similarity": 0.071,
+            "found_keywords": [
+              "population",
+              "vitamin",
+              "risk",
+              "certain",
+              "deficiency"
+            ],
+            "missing_keywords": [
+              "medical",
+              "such",
+              "conditions",
+              "portion",
+              "prevalence",
+              "global",
+              "dietary",
+              "exposure",
+              "factors",
+              "limited"
+            ],
+            "source_url": "https://www.endocrine.org/guidelines-and-clinical-practice/clinical-practice-guidelines/vitamin-d-deficiency"
+          }
+        ]
+      },
+      "timestamp": "2026-03-04T21:34:38.324307",
+      "errors": []
+    },
+    "evidence_match_quality_v2": {
+      "metric_name": "evidence_match_quality_v2",
+      "score": 0.483,
+      "passed_checks": 0,
+      "total_checks": 4,
+      "accuracy_percentage": 48.3,
+      "details": {
+        "summary": "0/1 claims have high semantic match (48.3% avg)",
+        "total_claims_analyzed": 4,
+        "verifiable_claims": 1,
+        "unverifiable_claims": 3,
+        "average_similarity_score": 48.3,
+        "match_distribution": {
+          "HIGH": 0,
+          "MEDIUM": 0,
+          "LOW": 1,
+          "UNVERIFIABLE": 3
+        },
+        "claim_verification_details": [
+          {
+            "claim": "Deficiency can lead to conditions such as osteoporosis and rickets [1].",
+            "citations": [
+              "1"
+            ],
+            "urls": [
+              "https://academic.oup.com/ajcn/article/107/4/652/4992635"
+            ],
+            "similarity_score": null,
+            "match_quality": "UNVERIFIABLE",
+            "reason": "Unable to fetch or process source content"
+          },
+          {
+            "claim": "Recent systematic reviews have confirmed that adequate vitamin D levels are associated with improved bone density and reduced fracture risk [2].",
+            "citations": [
+              "2"
+            ],
+            "urls": [
+              "https://asbmr.onlinelibrary.wiley.com/doi/full/10.1002/jbmr.3952"
+            ],
+            "similarity_score": null,
+            "match_quality": "UNVERIFIABLE",
+            "reason": "Unable to fetch or process source content"
+          },
+          {
+            "claim": "Supplementation has shown potential benefits in reducing the risk of acute respiratory infections [3].",
+            "citations": [
+              "3"
+            ],
+            "urls": [
+              "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17"
+            ],
+            "similarity_score": null,
+            "match_quality": "UNVERIFIABLE",
+            "reason": "Unable to fetch or process source content"
+          },
+          {
+            "claim": "**Prevalence and Risk Factors**: A significant portion of the global population is at risk of vitamin D deficiency due to factors such as limited sun exposure, dietary habits, and certain medical conditions [4].",
+            "citations": [
+              "4"
+            ],
+            "urls": [
+              "https://www.endocrine.org/guidelines-and-clinical-practice/clinical-practice-guidelines/vitamin-d-deficiency"
+            ],
+            "similarity_score": 0.483,
+            "match_quality": "LOW",
+            "best_passage": "SHARE email facebook twitter bluesky pinterest print Clinical Practice Guideline Vitamin D for the Prevention of Disease Guideline Resources June 03, 2024 June 3, 2024 Vitamin D for the Prevention of ...",
+            "source_url": "https://www.endocrine.org/guidelines-and-clinical-practice/clinical-practice-guidelines/vitamin-d-deficiency"
+          }
+        ]
+      },
+      "timestamp": "2026-03-04T21:34:40.031540",
+      "errors": []
+    }
+  },
+  "overall_score": 0.37197418650396286
+}

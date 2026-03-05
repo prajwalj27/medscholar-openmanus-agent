@@ -1,0 +1,428 @@
+{
+  "report_path": "workspace\\long_covid_literature_survey.md",
+  "report_name": "long_covid_literature_survey.md",
+  "verification_timestamp": "2026-03-04T20:13:45.522008",
+  "report_statistics": {
+    "total_citations": 5,
+    "total_claims": 9,
+    "total_sections": 9,
+    "citations_with_urls": 5,
+    "word_count": 326
+  },
+  "metrics": {
+    "Citation Accuracy": {
+      "metric_name": "Citation Accuracy",
+      "score": 0.658,
+      "passed_checks": 5,
+      "total_checks": 5,
+      "accuracy_percentage": 65.8,
+      "details": {
+        "total_citations": 5,
+        "valid_citations": 5,
+        "invalid_citations": 0,
+        "citations_with_urls": 5,
+        "accessible_urls": 2,
+        "trusted_sources": 5,
+        "suspicious_citations": 0,
+        "duplicate_urls": 0,
+        "unique_urls": 5,
+        "score_breakdown": {
+          "accessibility_score": 0.16,
+          "credibility_score": 0.198,
+          "uniqueness_score": 0.2,
+          "non_suspicious_score": 0.1,
+          "accessible_citations": 2,
+          "trusted_sources": 5,
+          "suspicious_citations": 0,
+          "duplicate_citations": 0
+        },
+        "citation_details": [
+          {
+            "index": 1,
+            "title": "URL",
+            "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": false,
+            "http_status": 403,
+            "error": "HTTP 403",
+            "is_valid": false,
+            "is_trusted_source": true,
+            "is_suspicious": false,
+            "credibility_score": 0.5,
+            "page_title": null
+          },
+          {
+            "index": 2,
+            "title": "URL",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38019841/",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": false,
+            "http_status": 403,
+            "error": "HTTP 403",
+            "is_valid": false,
+            "is_trusted_source": true,
+            "is_suspicious": false,
+            "credibility_score": 0.5,
+            "page_title": null
+          },
+          {
+            "index": 3,
+            "title": "URL",
+            "url": "https://www.nature.com/articles/s41591-023-02521-2",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": true,
+            "http_status": 200,
+            "error": null,
+            "is_valid": true,
+            "is_trusted_source": true,
+            "is_suspicious": false,
+            "credibility_score": 0.9,
+            "page_title": "Postacute sequelae of COVID-19 at 2 years | Nature Medicine"
+          },
+          {
+            "index": 4,
+            "title": "URL",
+            "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250909",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": true,
+            "http_status": 200,
+            "error": null,
+            "is_valid": true,
+            "is_trusted_source": true,
+            "is_suspicious": false,
+            "credibility_score": 0.9,
+            "page_title": "Incidence of long-term post-acute sequelae of SARS-CoV-2 infection related to pain and other symptoms: A systematic review and meta-analysis | PLOS One"
+          },
+          {
+            "index": 5,
+            "title": "URL",
+            "url": "https://academic.oup.com/ofid/article/11/9/ofae462/7733485",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": false,
+            "http_status": 403,
+            "error": "HTTP 403",
+            "is_valid": false,
+            "is_trusted_source": true,
+            "is_suspicious": false,
+            "credibility_score": 0.5,
+            "page_title": null
+          }
+        ],
+        "warnings": []
+      },
+      "timestamp": "2026-03-04T20:13:47.444555",
+      "errors": [
+        "HTTP 403",
+        "HTTP 403",
+        "HTTP 403"
+      ]
+    },
+    "claim_support_rate": {
+      "metric_name": "claim_support_rate",
+      "score": 0.5,
+      "passed_checks": 6,
+      "total_checks": 12,
+      "accuracy_percentage": 50.0,
+      "details": {
+        "summary": "6/12 claims have inline citations (50.0%)",
+        "total_claims": 12,
+        "supported_claims": 6,
+        "unsupported_claims": 6,
+        "support_rate_percentage": 50.0,
+        "supported_examples": [
+          {
+            "claim": "- The prevalence of long COVID varies widely, with estimates ranging from 10% to 30% of those infected with SARS-CoV-2 experiencing symptoms beyond the acute phase [1].",
+            "section": "Prevalence",
+            "citations": [
+              "[1]"
+            ],
+            "citation_count": 1
+          },
+          {
+            "claim": "- A systematic review and meta-analysis reported that the incidence of long-term post-acute sequelae is significant, affecting multiple organ systems [2].",
+            "section": "Prevalence",
+            "citations": [
+              "[2]"
+            ],
+            "citation_count": 1
+          },
+          {
+            "claim": "- Common symptoms include fatigue, dyspnea, cognitive impairments, and mental health issues such as anxiety and depression [1][3].",
+            "section": "Symptoms",
+            "citations": [
+              "[1]",
+              "[3]"
+            ],
+            "citation_count": 2
+          },
+          {
+            "claim": "- A study highlighted that symptoms can persist for months and may include new or worsening conditions [3].",
+            "section": "Symptoms",
+            "citations": [
+              "[3]"
+            ],
+            "citation_count": 1
+          },
+          {
+            "claim": "- Current treatment strategies are largely supportive and symptomatic, focusing on rehabilitation and management of specific symptoms [4].",
+            "section": "Potential Treatments",
+            "citations": [
+              "[4]"
+            ],
+            "citation_count": 1
+          },
+          {
+            "claim": "- Research into targeted therapies is ongoing, with some studies exploring the use of anti-inflammatory and antiviral medications [5].",
+            "section": "Potential Treatments",
+            "citations": [
+              "[5]"
+            ],
+            "citation_count": 1
+          }
+        ],
+        "unsupported_examples": [
+          {
+            "claim": "Long COVID, also known as post-acute sequelae of SARS-CoV-2 infection (PASC), is a condition characterized by persistent symptoms following the acute phase of COVID-19.",
+            "section": "Executive Summary",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "This survey reviews recent literature on the prevalence, symptoms, and potential treatments for long COVID.",
+            "section": "Executive Summary",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "- The literature includes a mix of systematic reviews, cohort studies, and expert opinions.",
+            "section": "Evidence Quality Assessment",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "Systematic reviews provide the highest level of evidence, while cohort studies offer valuable insights into long-term outcomes.",
+            "section": "Evidence Quality Assessment",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "- There is a need for more longitudinal studies to understand the long-term trajectory of long COVID symptoms.",
+            "section": "Research Gaps and Future Directions",
+            "reason": "No inline citation marker found"
+          },
+          {
+            "claim": "- Further research is required to develop targeted treatments and to understand the pathophysiology of long COVID.",
+            "section": "Research Gaps and Future Directions",
+            "reason": "No inline citation marker found"
+          }
+        ],
+        "analysis": {
+          "claims_by_section": {
+            "Executive Summary": {
+              "total": 2,
+              "supported": 0,
+              "unsupported": 2,
+              "support_rate": 0.0
+            },
+            "Prevalence": {
+              "total": 2,
+              "supported": 2,
+              "unsupported": 0,
+              "support_rate": 100.0
+            },
+            "Symptoms": {
+              "total": 2,
+              "supported": 2,
+              "unsupported": 0,
+              "support_rate": 100.0
+            },
+            "Potential Treatments": {
+              "total": 2,
+              "supported": 2,
+              "unsupported": 0,
+              "support_rate": 100.0
+            },
+            "Evidence Quality Assessment": {
+              "total": 2,
+              "supported": 0,
+              "unsupported": 2,
+              "support_rate": 0.0
+            },
+            "Research Gaps and Future Directions": {
+              "total": 2,
+              "supported": 0,
+              "unsupported": 2,
+              "support_rate": 0.0
+            }
+          },
+          "citation_pattern": {
+            "total_unique_citations": 5,
+            "claims_with_multiple_citations": 1,
+            "max_citations_per_claim": 2,
+            "avg_citations_per_supported_claim": 1.17
+          }
+        }
+      },
+      "timestamp": "2026-03-04T20:13:47.449094",
+      "errors": []
+    },
+    "evidence_match_quality": {
+      "metric_name": "evidence_match_quality",
+      "score": 0.24629310927061684,
+      "passed_checks": 0,
+      "total_checks": 6,
+      "accuracy_percentage": 24.63,
+      "details": {
+        "summary": "0/3 claims have high evidence match (24.6% avg)",
+        "total_claims_analyzed": 6,
+        "verifiable_claims": 3,
+        "unverifiable_claims": 3,
+        "average_match_score": 24.63,
+        "match_distribution": {
+          "HIGH": 0,
+          "MEDIUM": 0,
+          "LOW": 3,
+          "UNVERIFIABLE": 3
+        },
+        "claim_verification_details": [
+          {
+            "claim": "## Key Findings\n\n### Prevalence\n- The prevalence of long COVID varies widely, with estimates ranging from 10% to 30% of those infected with SARS-CoV-2 experiencing symptoms beyond the acute phase [1].",
+            "citations": [
+              "1"
+            ],
+            "urls": [
+              "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23"
+            ],
+            "composite_score": null,
+            "match_quality": "UNVERIFIABLE",
+            "reason": "Unable to fetch or process source content"
+          },
+          {
+            "claim": "- A systematic review and meta-analysis reported that the incidence of long-term post-acute sequelae is significant, affecting multiple organ systems [2].",
+            "citations": [
+              "2"
+            ],
+            "urls": [
+              "https://pubmed.ncbi.nlm.nih.gov/38019841/"
+            ],
+            "composite_score": null,
+            "match_quality": "UNVERIFIABLE",
+            "reason": "Unable to fetch or process source content"
+          },
+          {
+            "claim": "### Symptoms\n- Common symptoms include fatigue, dyspnea, cognitive impairments, and mental health issues such as anxiety and depression [1][3].",
+            "citations": [
+              "1",
+              "3"
+            ],
+            "urls": [
+              "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23",
+              "https://www.nature.com/articles/s41591-023-02521-2"
+            ],
+            "composite_score": 0.2284161070375589,
+            "match_quality": "LOW",
+            "tfidf_similarity": 0.029,
+            "keyword_match_rate": 0.692,
+            "best_passage": "Few studies with longer follow-ups (longer than 1 year) examined a limited set of symptoms in individuals with COVID-19 or focused exclusively on neurologic sequelae 13 , 14 , 15 , 16 , 17 .",
+            "passage_similarity": 0.03,
+            "found_keywords": [
+              "cognitive",
+              "anxiety",
+              "include",
+              "symptoms",
+              "health",
+              "common",
+              "depression",
+              "fatigue",
+              "mental"
+            ],
+            "missing_keywords": [
+              "issues",
+              "dyspnea",
+              "impairments",
+              "such"
+            ],
+            "source_url": "https://www.nature.com/articles/s41591-023-02521-2"
+          },
+          {
+            "claim": "- A study highlighted that symptoms can persist for months and may include new or worsening conditions [3].",
+            "citations": [
+              "3"
+            ],
+            "urls": [
+              "https://www.nature.com/articles/s41591-023-02521-2"
+            ],
+            "composite_score": 0.23780032933273174,
+            "match_quality": "LOW",
+            "tfidf_similarity": 0.015,
+            "keyword_match_rate": 0.75,
+            "best_passage": "The risks and burdens of these sequelae have been assessed in the few months to a year after the onset of infection 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 .",
+            "passage_similarity": 0.028,
+            "found_keywords": [
+              "conditions",
+              "persist",
+              "include",
+              "months",
+              "symptoms",
+              "study"
+            ],
+            "missing_keywords": [
+              "highlighted",
+              "worsening"
+            ],
+            "source_url": "https://www.nature.com/articles/s41591-023-02521-2"
+          },
+          {
+            "claim": "### Potential Treatments\n- Current treatment strategies are largely supportive and symptomatic, focusing on rehabilitation and management of specific symptoms [4].",
+            "citations": [
+              "4"
+            ],
+            "urls": [
+              "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250909"
+            ],
+            "composite_score": 0.27266289144155986,
+            "match_quality": "LOW",
+            "tfidf_similarity": 0.147,
+            "keyword_match_rate": 0.615,
+            "best_passage": "Studies only focusing on acute symptoms from admission without any mention of long-term symptoms were excluded.",
+            "passage_similarity": 0.072,
+            "found_keywords": [
+              "current",
+              "treatment",
+              "symptomatic",
+              "symptoms",
+              "potential",
+              "focusing",
+              "rehabilitation",
+              "management"
+            ],
+            "missing_keywords": [
+              "strategies",
+              "supportive",
+              "treatments",
+              "specific",
+              "largely"
+            ],
+            "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250909"
+          },
+          {
+            "claim": "- Research into targeted therapies is ongoing, with some studies exploring the use of anti-inflammatory and antiviral medications [5].",
+            "citations": [
+              "5"
+            ],
+            "urls": [
+              "https://academic.oup.com/ofid/article/11/9/ofae462/7733485"
+            ],
+            "composite_score": null,
+            "match_quality": "UNVERIFIABLE",
+            "reason": "Unable to fetch or process source content"
+          }
+        ]
+      },
+      "timestamp": "2026-03-04T20:13:52.604339",
+      "errors": []
+    }
+  },
+  "overall_score": 0.4680977030902056
+}

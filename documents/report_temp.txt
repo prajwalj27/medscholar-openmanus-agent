@@ -1,0 +1,62 @@
+# Verification Layer Implementation Summary
+
+## Overview
+Implemented a comprehensive verification system to measure the factual reliability and quality of AI-generated healthcare literature surveys.
+
+## Metrics Implemented
+
+### 1. **Citation Accuracy** (Enhanced)
+- **Purpose**: Validates citation quality and source credibility
+- **Scoring**: 4-factor composite (40/30/20/10 weighting)
+  - URL accessibility (HTTP status checks)
+  - Source credibility (trusted domains: .gov, .edu, PubMed, Nature, etc.)
+  - Citation uniqueness (deduplication)
+  - Non-suspicious patterns
+- **Enhancement**: Added browser-like headers to bypass 403 paywalls
+- **Output**: Per-citation analysis with HTTP status, credibility scores
+
+### 2. **Claim Support Rate**
+- **Purpose**: Measures what percentage of claims have inline citations
+- **Method**: Parses report sections, identifies claims, checks for citation markers [1][2]
+- **Output**: Section-by-section breakdown, supported vs unsupported claims
+- **Enhancement**: Removed claim truncation to preserve full context
+
+### 3. **Evidence Match Quality V1** (TF-IDF)
+- **Purpose**: Offline semantic matching between claims and cited sources
+- **Method**: Multi-factor composite scoring
+  - TF-IDF vectorization (50% weight)
+  - Keyword matching (30% weight)
+  - Best passage similarity (20% weight)
+- **Match Levels**: HIGH (≥60%), MEDIUM (40-59%), LOW (<40%)
+- **Advantage**: No API costs, runs completely offline
+- **Limitation**: Less semantically accurate than embeddings
+
+### 4. **Evidence Match Quality V2** (Embeddings) ⭐ **NEW**
+- **Purpose**: High-accuracy semantic matching using AI embeddings
+- **Method**: OpenAI text-embedding-3-small for cosine similarity
+- **Features**:
+  - Simple single-score approach (vs V1's multi-factor)
+  - Embedding-based best passage extraction (finds actual matching text)
+  - Match Levels: HIGH (≥80%), MEDIUM (60-79%), LOW (<60%)
+- **Cost**: ~$0.0015 per 8-claim report (~2¢ per 100 reports)
+- **Advantage**: Significantly more accurate semantic understanding
+
+## Technical Features
+- **Async architecture**: Parallel URL fetching for performance
+- **Browser headers**: Chrome user-agent + security headers to bypass paywalls
+- **Config integration**: Reads OpenAI API key from config.toml
+- **Full claim preservation**: No text truncation for better analysis
+- **Dual metrics**: Both V1 (offline) and V2 (embeddings) available in JSON output
+
+## Output Format
+Single JSON file per report containing:
+- Report metadata (citations, claims, sections, word count)
+- All 4 metric results with detailed breakdowns
+- Per-claim verification details with source URLs and match scores
+- Overall quality score aggregating all metrics
+
+## Files Created
+- evidence_match - V1 implementation
+- evidence_match_v2 - V2 implementation
+- run_verification.py - Main runner script
+- READMEs, test scripts, example outputs, quick start guide

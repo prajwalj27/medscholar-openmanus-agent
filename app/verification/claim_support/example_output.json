@@ -1,0 +1,66 @@
+{
+  "metric_name": "claim_support_rate",
+  "score": 0.75,
+  "message": "9/12 claims have inline citations (75.0%)",
+  "details": {
+    "total_claims": 12,
+    "supported_claims": 9,
+    "unsupported_claims": 3,
+    "support_rate_percentage": 75.0,
+    "supported_examples": [
+      {
+        "claim": "Type 2 diabetes is a chronic metabolic disorder characterized by insulin resistance [1].",
+        "citations": ["[1]"],
+        "citation_count": 1
+      },
+      {
+        "claim": "Metformin is the first-line pharmacological treatment for type 2 diabetes [2].",
+        "citations": ["[2]"],
+        "citation_count": 1
+      },
+      {
+        "claim": "It reduces HbA1c levels by approximately 1-2% [3].",
+        "citations": ["[3]"],
+        "citation_count": 1
+      },
+      {
+        "claim": "Recent studies have shown potential cardiovascular benefits beyond glycemic control [4][5].",
+        "citations": ["[4]", "[5]"],
+        "citation_count": 2
+      },
+      {
+        "claim": "Metformin works primarily by decreasing hepatic glucose production [6].",
+        "citations": ["[6]"],
+        "citation_count": 1
+      }
+    ],
+    "unsupported_examples": [
+      {
+        "claim": "The medication is generally well-tolerated by most patients.",
+        "reason": "No inline citation marker found"
+      },
+      {
+        "claim": "It also improves insulin sensitivity in peripheral tissues.",
+        "reason": "No inline citation marker found"
+      },
+      {
+        "claim": "The exact molecular mechanisms are still being investigated.",
+        "reason": "No inline citation marker found"
+      }
+    ],
+    "analysis": {
+      "claims_by_section": {
+        "Introduction": 2,
+        "Key Findings": 4,
+        "Mechanism of Action": 3,
+        "Clinical Outcomes": 3
+      },
+      "citation_pattern": {
+        "total_inline_citations": 10,
+        "claims_with_multiple_citations": 1,
+        "max_citations_per_claim": 2,
+        "avg_citations_per_supported_claim": 1.11
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "report_path": "workspace/snoring_reduction_literature_survey.md",
+  "report_name": "snoring_reduction_literature_survey.md",
+  "verification_timestamp": "2026-03-04T10:30:00.123456",
+  "report_statistics": {
+    "total_citations": 3,
+    "total_claims": 12,
+    "total_sections": 8,
+    "citations_with_urls": 3,
+    "word_count": 856
+  },
+  "metrics": {
+    "Citation Accuracy": {
+      "metric_name": "Citation Accuracy",
+      "score": 0.6666666666666666,
+      "passed_checks": 2,
+      "total_checks": 3,
+      "accuracy_percentage": 66.67,
+      "details": {
+        "total_citations": 3,
+        "valid_citations": 2,
+        "invalid_citations": 1,
+        "citations_with_urls": 3,
+        "accessible_urls": 2,
+        "citation_details": [
+          {
+            "index": 1,
+            "title": "AASM",
+            "url": "https://aasm.org/clinical-resources/practice-standards/practice-guidelines/",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": true,
+            "http_status": 200,
+            "error": null,
+            "is_valid": true
+          },
+          {
+            "index": 2,
+            "title": "PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9021938/",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": true,
+            "http_status": 200,
+            "error": null,
+            "is_valid": true
+          },
+          {
+            "index": 3,
+            "title": "Springer",
+            "url": "https://link.springer.com/article/10.1007/s12070-025-06179-9",
+            "has_url": true,
+            "is_valid_format": true,
+            "is_accessible": false,
+            "http_status": 404,
+            "error": "HTTP 404",
+            "is_valid": false
+          }
+        ]
+      },
+      "timestamp": "2026-03-04T10:30:15.789012",
+      "errors": [
+        "HTTP 404"
+      ]
+    }
+  },
+  "overall_score": 0.6666666666666666
+}
